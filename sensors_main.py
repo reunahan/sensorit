@@ -1,10 +1,12 @@
 import sys
 
+# Ensimmäinen muutos
 # This is the main finction for controlling the flow of the
 # implementation.
 def main():
     limits = parse_limits()
     sensor_data = []
+#toinen muutos
 
     if len(limits) > 0 and check_limits(limits):
         sensor_data = read_sensors()
